@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+    <weblogic-ejb-jar xmlns="http://www.bea.com/ns/weblogic/90" xmlns:j2ee="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.bea.com/ns/weblogic/90 http://www.bea.com/ns/weblogic/90/weblogic-ejb-jar.xsd">
+	-->
+<weblogic-ejb-jar xmlns="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar  http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.6/weblogic-ejb-jar.xsd"> 
+		
+		<!-- Add bean configuration -->
+
+		<weblogic-enterprise-bean>
+			<ejb-name>Application</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>Application</jndi-name>
+		</weblogic-enterprise-bean>
+
+		<weblogic-enterprise-bean>
+			<ejb-name>ApplicationConfig</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>ApplicationConfig</jndi-name>
+		</weblogic-enterprise-bean>
+
+		<weblogic-enterprise-bean>
+			<ejb-name>ApplicationPermissions</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>ApplicationPermissions</jndi-name>
+		</weblogic-enterprise-bean>		
+		
+		<weblogic-enterprise-bean>
+			<ejb-name>ApplicationReport</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>ApplicationReport</jndi-name>
+		</weblogic-enterprise-bean>
+
+		<weblogic-enterprise-bean>
+			<ejb-name>DropDownList</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>DropDownList</jndi-name>
+		</weblogic-enterprise-bean>
+		
+		<weblogic-enterprise-bean>
+			<ejb-name>GrantApplication</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>GrantApplication</jndi-name>
+		</weblogic-enterprise-bean>		
+
+		<weblogic-enterprise-bean>
+			<ejb-name>ProjectSubGrantApplication</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>ProjectSubGrantApplication</jndi-name>
+		</weblogic-enterprise-bean>
+		
+		<weblogic-enterprise-bean>
+			<ejb-name>Report</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>Report</jndi-name>
+		</weblogic-enterprise-bean>
+
+		<weblogic-enterprise-bean>
+			<ejb-name>SacsUtil</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>SacsUtil</jndi-name>
+		</weblogic-enterprise-bean>		
+
+		<weblogic-enterprise-bean>
+			<ejb-name>SubGrantApplication</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>SubGrantApplication</jndi-name>
+		</weblogic-enterprise-bean>
+		
+		<weblogic-enterprise-bean>
+			<ejb-name>UploadFile</ejb-name>
+			<stateless-session-descriptor>
+			</stateless-session-descriptor>
+			<transaction-descriptor>
+				<trans-timeout-seconds>360</trans-timeout-seconds>
+			</transaction-descriptor>
+			<enable-call-by-reference>true</enable-call-by-reference>			
+			<jndi-name>UploadFile</jndi-name>
+		</weblogic-enterprise-bean>			     		
+    </weblogic-ejb-jar>
